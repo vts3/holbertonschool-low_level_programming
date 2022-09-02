@@ -7,11 +7,11 @@
  *Return: Always 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[1])
 {
 	(void)argv;
 
-	printf("%d\n", argc);
+	printf("%d\n", argc -1);
 	return (0);
 
 }
