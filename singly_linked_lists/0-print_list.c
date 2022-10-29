@@ -1,7 +1,8 @@
 #include "lists.h"
-/*print_list - print elemento of list_t
- *@h: head of pointer
- *Return: count of elements
+/**
+ * print_list - print elementis of list_t
+ * @h: head of pointer
+ * Return: count of elements
  */
 
 size_t print_list(const list_t *h)
